@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.1rem;
+}
+
+#wrapper {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+body {
+  display: flex;
+  width: 90rem;
+  align-content: center;
+  justify-content: center;
+}
+
+.line,
+#addtask {
+  background-color: rgb(40, 97, 184);
+  width: 80rem;
+  height: 2rem;
+  box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-bottom: 1.5rem;
+  border: 0.1rem solid;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#addtask {
+  background-color: rgb(70, 180, 103);
+  margin-top: 2rem;
+}
+
+.line:hover,
+#addtask:hover {
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.5);
+}
+
+.cancel {
+  color: red;
+  width: 5rem;
+  padding: 2;
+}
+.cancel:hover,
+.important:hover {
+  background-color: tomato;
+}
+
+.star {
+  width: 2rem;
+}
+
+.task {
+  margin-left: 1rem;
+}
+
+.delete,
+.edit,
+.add {
+  width: 5rem;
+}
+
+.add:hover {
+  background-color: rgb(70, 180, 103);
+}
+
+.side {
+  display: flex;
+  flex-direction: row;
+  /* margin: 0 0.1rem; */
+}
+
+.edit:hover {
+  background-color: teal;
+}
+
+button:hover {
+  color: white;
+}
+
+#tasktext {
+  transition: 1s;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 2rem;
+  display: none;
+}
+
+.textarea {
+  width: 80rem;
+  margin-bottom: 1rem;
+  height: 5rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.date {
+  margin-right: 1rem;
+}
+
+.delete:hover {
+  background-color: orangered;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.smalltxt {
+  width: 50rem;
+  padding-left: 1rem;
+  background: none;
+}
+
+.side > i {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.1rem;
+}
+
+.side > i:hover {
+  color: yellow;
+}
+
+.imp {
+}
